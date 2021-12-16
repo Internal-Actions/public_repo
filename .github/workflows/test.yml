@@ -1,0 +1,9 @@
+on: workflow_dispatch
+
+jobs:
+  build:
+    runs-on: self-hosted
+    steps:
+    - uses: actions/javascript-action@v1
+      with:
+        milliseconds: 1000

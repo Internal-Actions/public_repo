@@ -4,4 +4,4 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: Internal-Actions/tauhid621-private-action-3@main
+    - uses: Internal-Actions/tauhid621-private-action-4@main

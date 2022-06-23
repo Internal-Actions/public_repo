@@ -1,0 +1,7 @@
+on: workflow_dispatch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: Internal-Actions/tauhid621-private-action@main
